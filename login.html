@@ -12,20 +12,41 @@
     <title>Document</title>
 </head>
 <body>
+          <nav class="navbar navbar-inverse">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#target-list">
+                      <span class="icon-bar">awd</span>
+                      <span class="icon-bar">wad</span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a href="#" class="navbar-brand">Market</a>
+                </div>
+                  <div class="collapase navbar-collapase" id="target-list">
+                      <ul class="nav navbar-nav" >
+                          <li class="active"><a href="index.html">Home</a></li>
+                          <li><a href="#">Product</a></li>
+                          <li><a href="#">Promo</a></li>
+                          <li><a href="#">keranjang</a></li> 
+                      </ul>
+                  
+                </div></nav>
+
+  <div class="login">
         <div class="col-md-4">
             <div class="p-3 mb-2 bg-success text-white ">
               <div class="line-height: normal;">
-        <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">username</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
-        
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form></div></div></div></div></div></div></div>    
+                
+                  <h2 class="page-header">Form Login Bootstrap</h2>
+                  <form method="post" action="login.php">
+                    <div class="form-group">
+                      <label>Nama</label><br>
+                      <input name="username"  class="form-control" placeholder="Username">
+                      <label>Password</label><br>
+                      <input name="password" type="password" class="form-control" placeholder="Password">
+                      <br>
+                      <button class="btn btn-warning" type="submit">Login</button>
+                    </div>	
+                  </form></div></div></div></div></div></div></div></div>    
 </body>
+</script>
 </html>
